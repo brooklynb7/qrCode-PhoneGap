@@ -1,7 +1,7 @@
 'use strict';
 
 // Declare app level module which depends on filters, and services
-var aApp = angular.module('packageTracking', ['ngRoute', 'packageTrackingControllers']);
+var aApp = angular.module('packageTracking', ['ngRoute','ngTouch', 'packageTrackingControllers']);
 
 aApp.config(['$routeProvider',
 	function($routeProvider) {
